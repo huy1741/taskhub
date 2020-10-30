@@ -4,7 +4,7 @@ import CustomerCard from './CustomerCard';
 
 const UserList = ({info}) =>{
     const userDetails = info.map(user => 
-        <div><CustomerCard key={user.id} data={user}/></div>
+       <CustomerCard key={user.id} data={user}/>
      )
     return userDetails;
 
