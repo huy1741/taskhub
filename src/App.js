@@ -28,7 +28,7 @@ return(
     <Router>
     <Switch>
       <Route exact path="/"><div  className="container"> <UserList info={info}/> </div></Route>
-      {info.length === 0 ? null : <Route exact path="/users/:id"><div  className="container1"><Details dataname={info}/></div></Route>}
+      <Route exact path="/users/:id"><div  className="container1"><Details/></div></Route>
     </Switch>
     </Router>);}
 
