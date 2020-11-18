@@ -4,10 +4,10 @@ Fetching customer infomation and show them separately on different sites using R
 
 ## Used techniques and other libraries:
 
-Hooks: useState, useParam, useEffect.
-React Navigation.
-Axios.
-Material UI.
+Hooks: useState, useParam, useEffect.</br>
+React Navigation.</br>
+Axios.</br>
+Material UI.</br>
 
 Deployed to Netlify: https://huy-nguyen-integrify.netlify.app/
 
